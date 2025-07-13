@@ -17,7 +17,7 @@ you can run the following to copy the template into your current folder
 
 ## How it works
 
-NOTE: goal is to eventually have a code gen step to reduce boiler plate like node2nix but for now its all manaul
+NOTE: goal is to eventually have a code gen step to reduce boiler plate like node2nix but for now its all manual
 
 - nix is given a list of urls of roc packages with their sha256 hash
 - `downloadRocPackage` will call `fetchUrl` on each package and extract the package into a directory
