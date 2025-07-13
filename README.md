@@ -2,7 +2,10 @@
 
 Very much a work in progress but basic nix building works
 
-to run the example you can run `nix build .#examples-simple --print-build-logs` in the repo root
+to run the example you can run the following in the repo root
+```shell
+nix build .#examples-simple --print-build-logs
+```
 
 ## Quick start
 
