@@ -6,7 +6,7 @@ to run the example you can run `nix build .#examples-simple --print-build-logs` 
 
 ## Quick start
 
-See [this example](./templates/quick-start/) for a simple roc app taken form [roc-parser](https://github.com/lukewilliamboswell/roc-parser/blob/main/examples/letters.roc) which builds a roc binary using 2 external deps
+See [this example](./templates/quick-start/) for a simple roc app taken from [roc-parser](https://github.com/lukewilliamboswell/roc-parser/blob/main/examples/letters.roc) which builds a roc binary using 2 external deps
 
 
 you can run the following to copy the template into your current folder
@@ -29,7 +29,7 @@ NOTE: goal is to eventually have a code gen step to reduce boiler plate like nod
 - [ ] TLC around how roc deps are replaced by the nix store paths. Right now its basically a regex is fine for the long urls but for local file paths there is a potential for collisions
 - [ ] actually verify the blake3 checksum. (since we untar roc wont do this for us). Maybe roc could support local tar balls?
 - [ ] A code gen tool to get all deps of a roc package for you
-
+- [ ] Update to roc 0.1 syntax
 
 ## Ideas to explore
 
